@@ -1,0 +1,13 @@
+{
+  "name": "problem4-sum-to-n",
+  "version": "1.0.0",
+  "description": "Three different approaches to calculate sum from 1 to n",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.0.5",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1"
+  }
+}
