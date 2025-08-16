@@ -1,0 +1,32 @@
+{
+  "name": "problem5-crude-server",
+  "version": "1.0.0",
+  "description": "A simple CRUD server using Express",
+  "type": "module",
+  "scripts": {
+    "dev": "dotenvx run -- nodemon --exec tsx ./src/app.ts",
+    "db:push": "drizzle-kit push",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.4",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.4",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "zod": "^4.0.17"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.4",
+    "eslint": "^9.33.0",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
